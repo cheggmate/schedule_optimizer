@@ -1,0 +1,16 @@
+Please find below a brief overview of design and assumptions made:
+
+Design:
+1. First step was to run and parse info from the input text until an array,
+2. to scan for duration and store data as array.
+3. fit each event into the slots, once the next event is found, it is printed immediately in the format required.
+4. once the end of day is reached, a new line is added.
+
+
+Assumptions:
+1. Total duration of events will be less than total available time of sessions.
+2. Each session is provided in the following format: (Name of Event)(Space)(Time in minutes, with no space in between)
+3. Each event in the text file is provided in a new line
+4. There are no typo errors in the Events (e.g. "mins" is always spelt correctly)
+5. Events of a similar topic need not be grouped together
+
